@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+     <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo border"></div>
+            </div>
+            <div class="nav-address border">
+                <pre class="add-first">Delivery to</pre>
+                <div class="app-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                <p class="add-second">
+                    india
+                </p></div>
+            </div>
+
+        <div class="nav-search">
+                <select class="nav-drop"><option>All</option></select>
+                <input  placeholder="search amazon" class="nav-place">
+                <div class="nave-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+           </div>
+        
+        <div class="nav-signin border">
+            <p><span>Hello,sign in</span></p>
+            <p class="nav-sec">account & lists</p>
+        </div>
+        <div class="box border">
+            <p><span>returns</span></p>
+            <p class="nav-sec">& orders</p>
+        </div>
+        <div class="nav-cart border">
+            <div class="nav-first">
+            <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <p class="nav-cart-text">Cart</p>
+        </div>
+    </div>
+        <div class="panel ">
+            <div class="panel-menu border">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="panel-options ">
+            <p class="border">today'deals</p>
+            <p class="border">amazon mini tv</p>
+            <p class="border">Sell</p>
+            <p class="border">best sellers</p>
+            <p class="border">discounts</p>
+            <p class="border">mobiles</p>
+            <p class="border">gift ideas</p>
+        </div>
+        <div class="panel-image border"><img src="SWM_400x39_V2._CB584632393_.jpg" ></div>
+        </div>
+     </header>
+     <div class="nav-body">
+        <div class="body-content border">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div></div>
+        <div class="shop">
+            <div class=" box1 boxi">
+                <div style="margin-left: 10px;margin-right: 10px;">
+                <p style="text-transform: capitalize; font-weight: 700;font-size: 30px;">power generators</p>
+                <div style="background-image: url('41aLo0pu98L._SX300_SY300_QL70_FMwebp_.webp');"class ="img"></div>
+                <p style="text-transform: capitalize; color: #007185;">see more</p></div>
+            </div>
+            <div class=" box2 boxi"><div style="margin-left: 10px;margin-right: 10px;">
+                <p style="text-transform: capitalize; font-weight: 700;font-size: 30px;">games and controllers</p>
+                <div style="background-image: url('51854ydmsWL._AC_SY200_.jpg');"class ="img"></div>
+                <p style="text-transform: capitalize; color: #007185;">see more</p></div></div>
+            <div class="box3 boxi"><div style="margin-left: 10px;margin-right: 10px;">
+                <p style="text-transform: capitalize; font-weight: 700;font-size: 30px;">fans and cutlery</p>
+                <div style="background-image: url('Deals_CC_379x304_1x._SY304_CB580162467_.jpg');"class ="img"></div>
+                <p style="text-transform: capitalize; color: #007185;">see more</p></div></div>
+            <div class="box4 boxi"><div style="margin-left: 10px;margin-right: 10px;">
+                <p style="text-transform: capitalize; font-weight: 700;font-size: 30px;">motor vehicles</p>
+                <div style="background-image: url('61Lg7B0x5NL._SX522_.jpg');"class ="img"></div>
+                <p style="text-transform: capitalize; color: #007185;">see more</p></div></div>
+        </div>
+        <div class="shop">
+            <div class=" box1 boxi">
+                <div style="margin-left: 10px;margin-right: 10px;">
+                <p style="text-transform: capitalize; font-weight: 700;font-size: 30px;">summer wears</p>
+                <div style="background-image: url('MF-1-186-116._SY116_CB636110853_.jpg');"class ="img"></div>
+                <p style="text-transform: capitalize; color: #007185;">see more</p></div>
+            </div>
+            <div class=" box2 boxi"><div style="margin-left: 10px;margin-right: 10px;">
+                <p style="text-transform: capitalize; font-weight: 700;font-size: 30px;">blankets and curtains</p>
+                <div style="background-image: url('186x116_Home_furnishings_2._SY116_CB584596691_.jpg');"class ="img"></div>
+                <p style="text-transform: capitalize; color: #007185;">see more</p></div></div>
+            <div class="box3 boxi"><div style="margin-left: 10px;margin-right: 10px;">
+                <p style="text-transform: capitalize; font-weight: 700;font-size: 30px;">kitchen aesthetics</p>
+                <div style="background-image: url('51EEaIAPujS._AC_SY200_.jpg');"class ="img"></div>
+                <p style="text-transform: capitalize; color: #007185;">see more</p></div></div>
+            <div class="box4 boxi"><div style="margin-left: 10px;margin-right: 10px;">
+                <p style="text-transform: capitalize; font-weight: 700;font-size: 30px;">outdoor decor</p>
+                <div style="background-image: url('Pc_379_X_304-2-min._SY304_CB582865379_.jpg');"class ="img"></div>
+                <p style="text-transform: capitalize; color: #007185;">see more</p></div></div>
+        </div>
+        <footer>
+            <div class="footer-panel">
+                Back to top
+            </div>
+            <div class="parent">
+            <div class="foot">
+                <ul><p>Get to Know Us</p></ul>
+                <ul><a>About Us</a></ul>
+                <ul><a>Careers</a></ul>
+                <ul><a>Press Releases</a></ul>
+                <ul><a>Amazon Science</a></ul>
+            </div>
+            <div class="foot">
+                <ul><p>Get to Know Us</p></ul>
+                <ul><a>About Us</a></ul>
+                <ul><a>Careers</a></ul>
+                <ul><a>Press Releases</a></ul>
+                <ul><a>Amazon Science</a></ul>
+            </div>
+            <div class="foot">
+                <ul><p>Get to Know Us</p></ul>
+                <ul><a>About Us</a></ul>
+                <ul><a>Careers</a></ul>
+                <ul><a>Press Releases</a></ul>
+                <ul><a>Amazon Science</a></ul>
+            </div>
+            <div class="foot">
+                <ul><p>Get to Know Us</p></ul>
+                <ul><a>About Us</a></ul>
+                <ul><a>Careers</a></ul>
+                <ul><a>Press Releases</a></ul>
+                <ul><a>Amazon Science</a></ul>
+            </div></div>
+            <div class="foot-img">
+                <div class="logo-imgs"></div>
+            </div>
+        </footer>
+</body>
+</html>
