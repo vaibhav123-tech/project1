@@ -2,8 +2,19 @@ const logo1=document.querySelector('.logo.border');
 let icon = document.getElementById('icons');
 let signin=document.getElementById('sign');
 const arrow = document.querySelector('.fa-solid.fa-arrow-right');
-const image = document.querySelector('.nav-body');
+const image = document.querySelector('.imgs');
+const cartno = document.querySelector('.supnum');
 const cartbuttons = document.querySelectorAll('.cartop');
+let clickCount = 0; 
+
+cartbuttons.forEach((cart) => {
+    cart.addEventListener('click', () => {
+        clickCount++; 
+        cartno.innerHTML = clickCount; 
+    });
+});
+
+
 const msgdisplays = document.querySelectorAll('.msg');
 let maine = document.createElement('div');
 let upper = document.createElement('div');
@@ -180,3 +191,63 @@ signin.addEventListener('mouseover', () => {
     maine.style.display='block';
     func();
 });
+
+let array = [
+    { 'id': '1' },
+    { 'id': '2' },
+    { 'id': '3' },
+    { 'id': '4' },
+    { 'id': '5' }
+];
+
+let currentIndex = 0; 
+document.addEventListener('DOMContentLoaded', function() {
+    // Your code here...
+
+arrow.addEventListener('click', () => {
+    // Get the current image object from the array based on the currentIndex
+    let currentImage = array[currentIndex];
+    
+    // Extract the id from the current image object
+    let currentId = currentImage.id;
+    console.log(currentIndex);
+    // Display the image using the currentId
+    image.innerHTML = `<img src="bg${currentId}.jpg" style="height: 360px; background-size: cover; width: 1520px; margin-top:95px;"></img><div class="body-content border">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>`;
+    
+    
+    // Increment the currentIndex to display the next image next time the arrow is clicked
+    currentIndex++;
+    
+    // Reset the currentIndex to 0 if it exceeds the length of the array
+    if (currentIndex >= array.length) {
+        this.location.reload();
+    }
+});
+});
+
+
+
+// document.addEventListener('DOMContentLoaded', function() {
+//     const cartbutton = document.querySelectorAll('.cartop');
+//     const cart_image = document.querySelector('.cartimg');
+//     const productImages = [
+//         'Pc_379_X_304-2-min._SY304_CB582865379_.jpg'
+//     ];
+//      const cartImageUrl=localStorage.getItem('cartImageUrl');
+//     cartbutton.forEach((cart, index) => {
+//         cart.addEventListener('click', () => {
+//             console.log(index);
+            
+//             if (index < productImages.length) {
+//                 cart_image.style.backgroundColor= cartImageUrl;
+//             } else {
+//                 console.error('Product image not found for index', index);
+//             }
+//         });
+//     });
+// });
+
+
+
